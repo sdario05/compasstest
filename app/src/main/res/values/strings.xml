@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CompassTest</string>
+
+    <string name="btn_title">Analyze text</string>
+    <string name="btn_processing">Processing…</string>
+    <string name="content_hint">Content is scrollable</string>
+
+    <string name="format_string_to_display">[%1$s]</string>
+
+    <string name="result_hint">Result will be displayed here</string>
+    <string name="char_array_title">10th character array</string>
+    <string name="words_count_title">Words count</string>
+</resources>

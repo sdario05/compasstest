@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dimen">0dp</dimen>
+
+    <dimen name="default_1_5">5dp</dimen>
+    <dimen name="default_2_5">10dp</dimen>
+    <dimen name="default_4_5">20dp</dimen>
+</resources>
