@@ -1,68 +1,68 @@
 [versions]
-agp = "8.4.2"
-kotlin = "1.9.0"
-coreKtx = "1.13.1"
-appcompat = "1.7.0"
-material = "1.12.0"
-activity = "1.9.0"
-constraintlayout = "2.1.4"
-koin = "2.1.6"
-retrofit = "2.11.0"
-okHttp = "4.9.0"
-lifecycle = "2.2.0"
-lifecycleViewModel = "2.8.3"
-converterScalars = "2.9.0"
+agpVersion = "8.4.2"
+kotlinVersion = "1.9.0"
+coreKtxVersion = "1.13.1"
+appcompatVersion = "1.7.0"
+materialVersion = "1.12.0"
+activityVersion = "1.9.0"
+constraintlayoutVersion = "2.1.4"
+koinVersion = "2.1.6"
+retrofitVersion = "2.11.0"
+okHttpVersion = "4.9.0"
+lifecycleVersion = "2.2.0"
+lifecycleViewModelVersion = "2.8.3"
+converterScalarsVersion = "2.9.0"
 
-junit = "4.13.2"
-testrunner = "1.2.0"
-junitVersion = "1.2.1"
-espressoCore = "3.6.1"
-mockito = "4.11.0"
-mockitoKotlin = "2.2.0"
-mockitoAndroid = "4.11.0"
+junitVersion = "4.13.2"
+testrunnerVersion = "1.2.0"
+androidXJunitVersion = "1.2.1"
+espressoCoreVersion = "3.6.1"
+mockitoVersion = "4.11.0"
+mockitoKotlinVersion = "2.2.0"
+mockitoAndroidVersion = "4.11.0"
 
-mockitoInline = "5.0.0"
-mockkAndroid = "1.13.2"
-mockkAgent = "1.13.2"
-kotlinxCoroutinesTest = "1.7.3"
-coreTesting = "2.2.0"
+mockitoInlineVersion = "5.0.0"
+mockkAndroidVersion = "1.13.2"
+mockkAgentVersion = "1.13.2"
+kotlinxCoroutinesTestVersion = "1.7.3"
+coreTestingVersion = "2.2.0"
 
 [libraries]
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activityVersion" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayoutVersion" }
 
-koin-core = {group = "io.insert-koin", name = "koin-core", version.ref = "koin"}
-koin-test = {group = "io.insert-koin", name = "koin-test", version.ref = "koin"}
-koin-android = {group = "io.insert-koin", name = "koin-android", version.ref = "koin"}
-koin-core-ext = {group = "io.insert-koin", name = "koin-core-ext", version.ref = "koin"}
-koin-androidx-viewmodel = {group = "io.insert-koin", name = "koin-androidx-viewmodel", version.ref = "koin"}
+koin-core = {group = "io.insert-koin", name = "koin-core", version.ref = "koinVersion" }
+koin-test = {group = "io.insert-koin", name = "koin-test", version.ref = "koinVersion" }
+koin-android = {group = "io.insert-koin", name = "koin-android", version.ref = "koinVersion" }
+koin-core-ext = {group = "io.insert-koin", name = "koin-core-ext", version.ref = "koinVersion" }
+koin-androidx-viewmodel = {group = "io.insert-koin", name = "koin-androidx-viewmodel", version.ref = "koinVersion" }
 
-retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
-retrofit-converter-gson = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit"}
-okhttp-client = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttp"}
-androidx-lifecycle = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle"}
-androidx-lifecycle-complier = {group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycle"}
-androidx-lifecycle-viewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModel"}
-converter-scalars = {group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "converterScalars"}
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit-converter-gson = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+okhttp-client = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttpVersion" }
+androidx-lifecycle = {group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleVersion" }
+androidx-lifecycle-complier = {group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycleVersion" }
+androidx-lifecycle-viewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewModelVersion" }
+converter-scalars = {group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "converterScalarsVersion" }
 
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-testRunner = { group = "androidx.test", name = "runner", version.ref = "testrunner" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
-mockito-kotlin = { group = "com.nhaarman.mockitokotlin2", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
-mockito-android = { group = "org.mockito", name = "mockito-android", version.ref = "mockitoAndroid" }
-mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
-mockk-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockkAndroid" }
-mockk-agent = { group = "io.mockk", name = "mockk-agent", version.ref = "mockkAgent" }
-kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTesting" }
+junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
+testRunner = { group = "androidx.test", name = "runner", version.ref = "testrunnerVersion" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidXJunitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockitoVersion" }
+mockito-kotlin = { group = "com.nhaarman.mockitokotlin2", name = "mockito-kotlin", version.ref = "mockitoKotlinVersion" }
+mockito-android = { group = "org.mockito", name = "mockito-android", version.ref = "mockitoAndroidVersion" }
+mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInlineVersion" }
+mockk-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockkAndroidVersion" }
+mockk-agent = { group = "io.mockk", name = "mockk-agent", version.ref = "mockkAgentVersion" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTestVersion" }
+core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTestingVersion" }
 
 
 [plugins]
-android-application = { id = "com.android.application", version.ref = "agp" }
-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "agpVersion" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
 
